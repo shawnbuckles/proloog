@@ -74,7 +74,8 @@ a {
 }
 
 .nadruk {
-    border-bottom: solid .2em #BD0000;
+    border-bottom: solid .2em #036564;
+    padding-bottom: .06em;
 }
 
 /* ---------------------- */
@@ -105,12 +106,13 @@ section {
 /* sections */
 
 .aanhef {
-    background: #CCC url('./img/aanhef.png') no-repeat center bottom;
+    background: #CCC url('../img/aanhef.png') no-repeat center 85%;
     padding: 240px 0;
 }
 
 .aanhef h1 {
     line-height: 1em;
+    color: #222;
 }
 
 /* ---------------------- */
@@ -125,7 +127,12 @@ section {
 }
 
 .intro h3 {
+    color: #036564;
     margin: 3em 0 0 0;
+}
+
+.intro blockquote {
+    color: #222;
 }
 
 /* ---------------------- */
@@ -137,38 +144,40 @@ section {
 /* ---------------------- */
 
 .binnen {
-    background: #CCC;
+    background: #036564;
 }
 
 .binnen h1 {
     text-align: left;
     line-height: .8em;
     font-size: 4em;
-    color: #333;
+    color: #f2f2f2;
 }
 
 .binnen p {
-    color: #333;
+    color: #f2f2f2;
+    font-size: 1em;
 }
 
 /* ---------------------- */
 
 .daadwerkelijk {
+    background: #033649;
 }
 
 .daadwerkelijk blockquote {
     line-height: 1.2em;
-    color: black;
+    color: white;
+    padding: 200px 0 ;
 }
 
 /* ---------------------- */
 
 .proloog {
+    background: #f2f2f2;
 }
 
 .proloog p {
-    line-height: 1.2em;
-    color: black;
 }
 
 /* ---------------------- */
@@ -176,9 +185,9 @@ section {
 .einde {
 }
 
-.einde p {
-    line-height: 1.2em;
-    color: black;
+.einde h1 {
+    color: #033649;
+    text-align: left;
 }
 
 /* ---------------------- */
