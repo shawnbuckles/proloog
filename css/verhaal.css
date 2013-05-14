@@ -1,0 +1,325 @@
+/************************************************/
+/*      HACQUEBORD & BUCKLES IN THE HOUSE!      */
+/************************************************/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f2f2f2;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #333;
+    font-family: 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
+    font-size: 34px;
+    line-height: 2em;
+}
+
+/* ---------------------- */
+
+/* typography */
+
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', Helvetica, "pragmatica-web", Arial, sans-serif;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #8CBC82;
+}
+
+h2 {
+    font-size: 2.2em;
+    line-height: 1.4em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+blockquote {
+    font-family: 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
+    font-size: 2.5em;
+    line-height: 1em;
+    letter-spacing: -0.02em;
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #767362;
+}
+
+.nadruk {
+    border-bottom: solid .2em #8CBC82;
+}
+
+/* ---------------------- */
+
+/* lay-out */
+
+section {
+    padding: 60px 0;
+}
+
+.story-content {
+    margin: 0 auto;
+}
+
+.site-width {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.copy-width {
+    width: 82%;
+    margin: 0 auto;
+}
+
+/* ---------------------- */
+
+/* sections */
+
+.top {
+    background: #111;
+}
+
+.top .copy-width {
+}
+
+.top h1 {
+    font-size: 15em;
+    color: #f2f2f2;
+}
+
+.top h2 {
+    color: #f2f2f2;
+}
+
+.top blockquote {
+    color: #f2f2f2;
+}
+
+/* ---------------------- */
+
+.intro {
+    clear: both;
+}
+
+.intro .copy-width {
+}
+
+.intro h1 {
+    color: #111;
+    font-size: 10em;
+}
+
+.intro h2 {
+    color: #222;
+    line-height: 2em;
+}
+
+.intro blockquote {
+    margin: 280px 0;
+
+    color: #8CBC82;
+    line-height: 1.2em;
+}
+
+/* ---------------------- */
+
+.conclusie {
+    clear: both;
+}
+
+.conclusie .copy-width {
+}
+
+.conclusie h1 {
+    color: #222;
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.conclusie h2 {
+    color: #8CBC82;
+    font-size: 4em;
+}
+
+.conclusie blockquote {
+    color: #333;
+    line-height: 1.2em;
+}
+
+.conclusie p {
+    color: black;
+    font-size: 1.4em;
+    line-height: 1.8em;
+}
+
+/* ---------------------- */
+
+.komma {
+    clear: both;
+    
+    background: #8CBC82;
+}
+
+.komma.second {
+    background: url('../img/komma.jpg') no-repeat center bottom;
+}
+
+.komma h1 {
+    color: #111;
+    line-height: 1.6em;
+}
+
+.komma h2 {
+    margin: .4em;
+
+    line-height: 1.2em;
+    color: #f2f2f2;
+    text-align: left;
+}
+
+.komma blockquote {
+    color: #333;
+    line-height: 1.2em;
+}
+
+.komma p {
+    color: #CCC;
+    font-size: 1.4em;
+    line-height: 1.8em;
+}
+
+.komma.second{
+    background-position: bottom;
+}
+/* ---------------------- */
+
+.maar {
+    background: #111;
+}
+
+.maar h1 {
+    line-height: 1em;
+    color: #FE5A27;
+}
+
+.maar h3 {
+
+    margin: 100px 0;
+
+    font-size: 3em;
+    line-height: 1em;
+    
+    color: white;
+    text-align: left;
+}
+
+/* ---------------------- */
+
+.mededeling {
+    clear: both;
+    
+    background: #111;
+}
+
+.mededeling .copy-width {
+    padding: 100px;
+}
+
+.mededeling h1 {
+
+    margin: 4em 0;
+
+    color: white;
+    line-height: 1em;
+}
+
+/* ---------------------- */
+
+.opsomming h1 {
+    font-size: 6em;
+    line-height: 1em;
+}
+
+.opsomming h2 {
+    margin: 2em 0 0 0;
+}
+
+/* ---------------------- */
+
+.alternatieven h1, h2, h3 {
+
+    margin: 5em 0;
+
+    line-height: 1em;
+}
+
+.alternatieven h1 {
+    color: #8CBC82;
+}
+
+.alternatieven h1.danger {
+    color: #B12C29;
+}
+
+.alternatieven h2 {
+    margin: 5em 0 0 0;
+
+    line-height: 1em;
+}
+
+.alternatieven ul {
+    text-align: center;
+    list-style-type: square;
+    margin: 1em 0 5em 0;
+}
+
+.alternatieven ul li {
+    padding-left: .6em;
+
+    font-size: 1.4em;
+    color: #8CBC82;
+    line-height: 1.2em;
+}
+
+/* ---------------------- */
+
+.footer-top {
+    background: #8CBC82;
+    height: .8em;
+}
+
+footer {
+    background: #8CBC82;
+    padding: 3em 0;
+}
+
+footer blockquote, h2 {
+    margin: 0;
+
+    font-size: 1em;
+    color: white;
+    line-height: 2em;
+}
