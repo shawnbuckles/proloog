@@ -128,7 +128,8 @@ section {
 
 .intro h3 {
     color: #036564;
-    margin: 3em 0 0 0;
+    margin: 2em 0 0 0;
+    font-size: 3em;
 }
 
 .intro blockquote {
@@ -162,13 +163,13 @@ section {
 /* ---------------------- */
 
 .daadwerkelijk {
-    background: #033649;
+    background: #033649 url('../img/aanhef.png') no-repeat center 88%;
 }
 
 .daadwerkelijk blockquote {
     line-height: 1.2em;
     color: white;
-    padding: 200px 0 ;
+    padding: 60px 0 ;
 }
 
 /* ---------------------- */
@@ -177,18 +178,17 @@ section {
     background: #f2f2f2;
 }
 
-.proloog p {
-}
-
 /* ---------------------- */
-
-.einde {
-}
 
 .einde h1 {
     color: #033649;
     text-align: left;
+    margin-top: 0;
 }
 
 /* ---------------------- */
 
+.footer {
+    background: #CCC;
+    color: #222;
+}
